@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="demo" time="53.478" tests="1" failures="0" errors="0">
+   <testsuite name="demo" tests="1" failures="0" errors="0" time="53.478" skipped="0" timestamp="2022-11-29 13:19:31" hostname="user - DESKTOP-N0K5OVR" id="Test Suites/demo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\git\\katalonRepos\\Reports\\20221129_131917\\demo\\20221129_131917"/>
+         <property name="logFiles" value="C:\\Users\\user\\git\\katalonRepos\\Reports\\20221129_131917\\demo\\20221129_131917\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - DESKTOP-N0K5OVR"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="192.168.180.165"/>
+         <property name="sessionId" value="4f4be82c696284b47654adeef818899c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/google" time="52.684" classname="Test Cases/google" status="PASSED">
+         <system-out><![CDATA[2022-11-29 13:19:31 - [TEST_CASE][PASSED] - Test Cases/google: Test Cases/google
+
+2022-11-29 13:19:33 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2022-11-29 13:19:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-11-29 13:19:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-29 13:19:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com/'
+
+2022-11-29 13:19:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-11-29 13:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2022-11-29 13:20:01 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2022-11-29 13:20:08 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2022-11-29 13:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username' is clicked on
+
+2022-11-29 13:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username' is clicked on
+
+2022-11-29 13:20:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), username): Keys 'John Doe' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-11-29 13:20:09 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2022-11-29 13:20:09 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2022-11-29 13:20:15 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2022-11-29 13:20:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password' is clicked on
+
+2022-11-29 13:20:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password' is clicked on
+
+2022-11-29 13:20:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), pass): Keys 'ThisIsNotAPassword' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-11-29 13:20:17 - [MESSAGE][PASSED] - Keys 'ThisIsNotAPassword' sent to object: 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2022-11-29 13:20:17 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2022-11-29 13:20:21 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2022-11-29 13:20:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/loginbutton")): Object: 'Object Repository/Page_CURA Healthcare Service/loginbutton' is clicked on
+
+2022-11-29 13:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/loginbutton' is clicked on
+
+2022-11-29 13:20:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-11-29 13:20:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-29 13:19:31 - [TEST_SUITE][PASSED] - demo: Test Cases/google]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
