@@ -12,7 +12,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Katalon Studio Github Action
-      uses: anujshukla-aut/testingactions@v
+      uses: katalon-studio/katalon-studio-github-action@v2
       with:
           version: '8.4.1'
           projectPath: '${{ github.workspace }}'
