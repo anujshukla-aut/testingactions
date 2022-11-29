@@ -16,4 +16,4 @@ jobs:
       with:
           version: '8.4.1'
           projectPath: anujshukla-aut/testingactions
-          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/demo" -apiKey="ee58bf46-23ba-4752-9564-0e329ff60da5.API_KEY"  --config -webui.autoUpdateDrivers=true'
+          args: '-noSplash -retry=0 -browserType=Chrome -statusDelay=15 -testSuiteCollectionPath="Test Suites/demo" -apiKey="ee58bf46-23ba-4752-9564-0e329ff60da5.API_KEY"  --config -webui.autoUpdateDrivers=true'
