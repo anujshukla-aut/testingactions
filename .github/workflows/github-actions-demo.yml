@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Checkout 
-      uses: actions/checkout@v2
+      uses: github-actions-demo/checkout@v2
     - name: Install packages
       run: npm install --save katalon-studio/katalon-agent#v1.4.0
     - name: Runs Katalon Studio Action Step
