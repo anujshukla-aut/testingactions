@@ -14,6 +14,8 @@ jobs:
     - name: Katalon Studio Github Action
       uses: katalon-studio/katalon-studio-github-action@v2
       with:
+          repository: 'anujshukla-aut/testingactions'
+          path: 'dev_repo'
           version: '8.4.1'
-          projectPath: '${{ github.workspace }}'
+          projectPath: '${{ github.workspace }}/dev_repo'
           args: 'katalonc -noSplash -runMode=console -retry=0 -testSuitePath="Test Suites/demo" -browserType="Chrome" -executionProfile="default" -apiKey="ee58bf46-23ba-4752-9564-0e329ff60da5" --config -proxy.auth.option=MANUAL_CONFIG -proxy.auth.server.type=HTTP -proxy.auth.server.port=0 -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -webui.autoUpdateDrivers=true'
