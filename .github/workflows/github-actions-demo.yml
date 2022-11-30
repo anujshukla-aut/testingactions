@@ -1,15 +1,15 @@
 name: CI
 on:
   push:
-    branches: main
+    branches: [ master ]
   pull_request:
-    branches: main
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: windows-latest
     steps:
-    - name: Checkout main
+    - name: Checkout 
       uses: actions/checkout@v2
     - name: Katalon Studio Github Action
       uses: katalon-studio/katalon-studio-github-action@v2
